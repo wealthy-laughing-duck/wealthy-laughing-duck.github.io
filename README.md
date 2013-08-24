@@ -1,3 +1,5 @@
+![Wealthy Laughing Duck Logo](img/logo.png "Wealthy Laughing Duck Logo")
+
 Introduction
 ------------
 
