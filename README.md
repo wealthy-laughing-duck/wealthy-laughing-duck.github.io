@@ -2,11 +2,11 @@
 
 # Introduction
 
-Wealthy Laughing Duck is in fact a simple logic model that can be adapted by
-various applications and platforms. It's supposed to be a personal finance
-managing system. All duck components are just implementations of this model,
-e.g. web interface implemented with JavaScript, Java Thrift server / PHP
-Thrift client, python RESTful API (consumed by JavaScript interface) and so on.
+Wealthy Laughing Duck is a simple logic model that can be adapted by various
+applications and platforms. It's supposed to be a **personal finance managing
+system**. All duck components are just implementations of this model, e.g. web
+interface implemented with JavaScript, Java Thrift server / PHP Thrift client,
+python RESTful API (consumed by JavaScript interface) and so on.
 
 Most of duck components are in early development phase so far, but the aim is
 to make them mature, stable systems that would rely on different technologies
@@ -23,13 +23,15 @@ a technology that's not present in the duck project yet - just contact the
 
 # List of duck components
 
- * [the original project](https://github.com/wealthy-laughing-duck/wealthy-laughing-duck):
+ * [wealthy laughing duck (original project)](https://github.com/wealthy-laughing-duck/wealthy-laughing-duck):
 
     * Java Thrift server
     * PHP Thrift client
     * JavaScript interface
 
  * [Backbone/Marionette interface](https://github.com/wealthy-laughing-duck/duck-interface)
+
+ * [Python/Django API](https://github.com/wealthy-laughing-duck/duck-api-rip)
 
 # Standards
 
@@ -41,10 +43,11 @@ standards were introduced:
 ## Database
 
  * type: `mysql`
+ * host: `localhost`
+ * port: `3306`
  * database user: `duck_user`
  * database name: `duck_database`
- * password: wXyqhWzlF0uO20j8
- * host: `localhost`
+ * password: `wXyqhWzlF0uO20j8`
 
 Duck components will connect the database according to above parameters by
 default.
