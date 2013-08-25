@@ -28,11 +28,11 @@
 <h1>
 <a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h1>
 
-<p>Wealthy Laughing Duck is in fact a simple logic model that can be adapted by
-various applications and platforms. It's supposed to be a personal finance
-managing system. All duck components are just implementations of this model,
-e.g. web interface implemented with JavaScript, Java Thrift server / PHP
-Thrift client, python RESTful API (consumed by JavaScript interface) and so on.</p>
+<p>Wealthy Laughing Duck is a simple logic model that can be adapted by various
+applications and platforms. It's supposed to be a <strong>personal finance managing
+system</strong>. All duck components are just implementations of this model, e.g. web
+interface implemented with JavaScript, Java Thrift server / PHP Thrift client,
+python RESTful API (consumed by JavaScript interface) and so on.</p>
 
 <p>Most of duck components are in early development phase so far, but the aim is
 to make them mature, stable systems that would rely on different technologies
@@ -53,7 +53,7 @@ a technology that's not present in the duck project yet - just contact the
 
 <ul>
 <li>
-<p><a href="https://github.com/wealthy-laughing-duck/wealthy-laughing-duck">the original project</a>:</p>
+<p><a href="https://github.com/wealthy-laughing-duck/wealthy-laughing-duck">wealthy laughing duck (original project)</a>:</p>
 
 <ul>
 <li>Java Thrift server</li>
@@ -62,6 +62,7 @@ a technology that's not present in the duck project yet - just contact the
 </ul>
 </li>
 <li><p><a href="https://github.com/wealthy-laughing-duck/duck-interface">Backbone/Marionette interface</a></p></li>
+<li><p><a href="https://github.com/wealthy-laughing-duck/duck-api-rip">Python/Django API</a></p></li>
 </ul><h1>
 <a name="standards" class="anchor" href="#standards"><span class="octicon octicon-link"></span></a>Standards</h1>
 
@@ -76,12 +77,15 @@ standards were introduced:</p>
 <ul>
 <li>type: <code>mysql</code>
 </li>
+<li>host: <code>localhost</code>
+</li>
+<li>port: <code>3306</code>
+</li>
 <li>database user: <code>duck_user</code>
 </li>
 <li>database name: <code>duck_database</code>
 </li>
-<li>password: wXyqhWzlF0uO20j8</li>
-<li>host: <code>localhost</code>
+<li>password: <code>wXyqhWzlF0uO20j8</code>
 </li>
 </ul><p>Duck components will connect the database according to above parameters by
 default.</p>
